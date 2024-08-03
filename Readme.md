@@ -17,3 +17,5 @@ Compile
 ```bash
 g++ server.cpp -o build/server -lpthread
 ```
+undefined reference to `pthread_create'
+https://stackoverflow.com/questions/17264984/undefined-reference-to-pthread-create
