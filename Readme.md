@@ -4,7 +4,7 @@ g++ helloworld.cpp -o build/helloworld
 ./build/helloworld
 ```
 # cpp-httplib
-Install 
+Install (after install => /usr/local/include/httplib.h) 
 ```bash
 git clone git@github.com:yhirose/cpp-httplib.git
 cd cpp-httplib
@@ -19,3 +19,6 @@ g++ server.cpp -o build/server -lpthread
 ```
 * undefined reference to `pthread_create'
 https://stackoverflow.com/questions/17264984/undefined-reference-to-pthread-create
+# JSON
+- https://github.com/nlohmann/json
+- Copy "single_include/nlohmann" folder to "/user/local/include"
