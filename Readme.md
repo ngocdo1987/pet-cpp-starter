@@ -22,3 +22,6 @@ https://stackoverflow.com/questions/17264984/undefined-reference-to-pthread-crea
 # JSON
 - https://github.com/nlohmann/json
 - Copy "single_include/nlohmann" folder to "/user/local/include"
+# HTML -> PDF
+- https://wkhtmltopdf.org/
+- https://github.com/wkhtmltopdf/wkhtmltopdf
