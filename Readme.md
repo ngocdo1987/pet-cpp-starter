@@ -1,9 +1,9 @@
-* How to compile C++
+# How to compile C++
 ```bash
 g++ helloworld.cpp -o build/helloworld
 ./build/helloworld
 ```
-* cpp-httplib
+# cpp-httplib
 Install 
 ```bash
 git clone git@github.com:yhirose/cpp-httplib.git
@@ -17,5 +17,5 @@ Compile
 ```bash
 g++ server.cpp -o build/server -lpthread
 ```
-undefined reference to `pthread_create'
+* undefined reference to `pthread_create'
 https://stackoverflow.com/questions/17264984/undefined-reference-to-pthread-create
