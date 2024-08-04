@@ -30,6 +30,10 @@ sudo make install
 ```
 - A complete example of a "CRUD" service (UserService) built with Oat++. => https://github.com/oatpp/example-crud
 - OpenApi 3.0.0 docs + Swagger UI for oatpp services => https://github.com/oatpp/oatpp-swagger
+# restc-cpp
+Modern C++ REST Client library => https://github.com/jgaa/restc-cpp
+# ngrest
+Fast and easy C++ RESTful WebServices framework => https://github.com/loentar/ngrest
 # JSON
 JSON for Modern C++
 - https://github.com/nlohmann/json
