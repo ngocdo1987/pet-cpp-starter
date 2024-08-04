@@ -4,7 +4,7 @@
 #include <curl/curl.h>
 #include "util.h"
 
-// gcc -Wall -o curl main.c util.c -l curl 
+// gcc -Wall -o build/curl curl.c util.c -l curl 
 // ./curl https://freegeoip.app/json/ 
 int main(int argc, char *argv[]) {
     if( argc != 2 ) {
