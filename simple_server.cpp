@@ -13,5 +13,9 @@ int main(void) {
         res.set_content("Simple C++ server written by httplib (test deploy)", "text/html");
     });
 
+    svr.Get("/test-crawl", [&](const Request & /*req*/, Response &res) {
+        res.set_content("Simple C++ server written by httplib (test crawl)", "text/html");
+    });
+
     svr.listen("localhost", 1234);
 }
