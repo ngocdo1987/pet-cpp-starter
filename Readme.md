@@ -3,6 +3,10 @@
 g++ helloworld.cpp -o build/helloworld
 ./build/helloworld
 ```
+# Exercises
+- https://www.learncpp.com/
+- https://www.w3resource.com/cpp-exercises/
+- https://github.com/codecrafters-io/build-your-own-x
 # cpp-httplib
 Install (after install => /usr/local/include/httplib.h) 
 ```bash
