@@ -72,3 +72,7 @@ A fast JSON parser/generator for C++ with both SAX/DOM style API
 # HTML -> PDF
 - https://wkhtmltopdf.org/
 - https://github.com/wkhtmltopdf/wkhtmltopdf
+# Nginx link function
+It is a NGINX module that provides dynamic linking to your application in server context and call the function of your application in location directive
+- https://github.com/Taymindis/nginx-link-function
+- https://nginx-link-function.github.io/
