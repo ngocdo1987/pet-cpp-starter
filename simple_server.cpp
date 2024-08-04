@@ -15,15 +15,15 @@ int main(void) {
     // HTTP
     Server svr;
 
+    CURL *curl;
+    CURLcode curlRes;
+    std::string readBuffer;
+
     svr.Get("/", [&](const Request & /*req*/, Response &res) {
         res.set_content("Simple C++ server written by httplib (test deploy)", "text/html");
     });
 
     svr.Get("/test-crawl", [&](const Request & /*req*/, Response &res) {
-        CURL *curl;
-        CURLcode curlRes;
-        std::string readBuffer;
-
         curl = curl_easy_init();
         if (curl) {
             curl_easy_setopt(curl, CURLOPT_URL, "http://www.google.com");
