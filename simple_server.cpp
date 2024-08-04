@@ -14,7 +14,7 @@ int main(void) {
     });
 
     svr.Get("/test-crawl", [&](const Request & /*req*/, Response &res) {
-        res.set_content("Simple C++ server written by httplib (test crawl)", "text/html");
+        res.set_content("Find the way to use curl inside httplib function", "text/html");
     });
 
     svr.listen("localhost", 1234);
