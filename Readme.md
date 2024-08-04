@@ -22,7 +22,27 @@ Compile
 g++ server.cpp -o build/server -lpthread
 ```
 * undefined reference to `pthread_create'
-https://stackoverflow.com/questions/17264984/undefined-reference-to-pthread-create
+https://stackoverflow.com/questions/17264984/undefined-reference-to-pthread-
+# Drogon
+Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows
+```bash
+sudo apt install git
+sudo apt install gcc
+sudo apt install g++
+sudo apt install cmake
+sudo apt install libjsoncpp-dev
+sudo apt install uuid-dev
+sudo apt install zlib1g-dev
+sudo apt install openssl
+sudo apt install libssl-dev
+git clone https://github.com/drogonframework/drogon
+cd drogon
+git submodule update --init
+mkdir build
+cd build
+cmake ..
+make && sudo make install
+```
 # oatpp
 🌱Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.
 ```bash
