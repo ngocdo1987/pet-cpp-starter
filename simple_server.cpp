@@ -11,33 +11,37 @@ static size_t WriteCallback(void *contents, size_t size, size_t nmemb, void *use
     return size * nmemb;
 }
 
-int main(void) {
-    // HTTP
-    Server svr;
-
+static string CurlEx(string url)
+{
     CURL *curl;
     CURLcode curlRes;
     std::string readBuffer;
+
+    curl = curl_easy_init();
+    if (curl) {
+        curl_easy_setopt(curl, CURLOPT_URL, url);
+        curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+        curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
+        curlRes = curl_easy_perform(curl);
+        curl_easy_cleanup(curl);
+
+        return readBuffer;
+    } else {
+        return "";
+    }
+}
+
+int main(void) {
+    // HTTP
+    Server svr;
 
     svr.Get("/", [&](const Request & /*req*/, Response &res) {
         res.set_content("Simple C++ server written by httplib (test deploy)", "text/html");
     });
 
     svr.Get("/test-crawl", [&](const Request & /*req*/, Response &res) {
-        curl = curl_easy_init();
-        if (curl) {
-            curl_easy_setopt(curl, CURLOPT_URL, "http://www.google.com");
-            curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
-            curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
-            curlRes = curl_easy_perform(curl);
-            curl_easy_cleanup(curl);
-
-            // std::cout << readBuffer << std::endl;
-
-            res.set_content(readBuffer, "text/html");
-        } else {
-            res.set_content("LOL", "text/html");
-        }
+        string curlResult = CurlEx("http://www.google.com");
+        res.set_content(curlResult, "text/html");
     });
 
     svr.listen("localhost", 1234);
