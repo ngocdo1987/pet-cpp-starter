@@ -2,6 +2,6 @@
 #include <stdlib.h>
 int main()
 {
-    system("ls -ll");
+    system("~/projects/CPP/pet-cpp-starter/build/curl https://freegeoip.app/json/");
     return 0;
 }
