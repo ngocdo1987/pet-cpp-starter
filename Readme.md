@@ -3,6 +3,7 @@
 g++ helloworld.cpp -o build/helloworld
 ./build/helloworld
 ```
+- How to call on a function found on another file? => https://stackoverflow.com/questions/15891781/how-to-call-on-a-function-found-on-another-file
 # Exercises
 - https://www.learncpp.com/
 - https://www.w3resource.com/cpp-exercises/
