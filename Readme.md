@@ -79,3 +79,10 @@ It is a NGINX module that provides dynamic linking to your application in server
 # C++ chat app
 A chat room application developed in C++ using the concepts of multi-threading and socket programming.
 - https://github.com/cjchirag7/chatroom-cpp
+# POCO
+The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
+- https://github.com/pocoproject/poco
+- https://pocoproject.org/
+# Mongoose
+A Premium Embedded Web Server for electronic devices in a single file
+- https://mongoose.ws/
