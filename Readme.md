@@ -4,6 +4,13 @@ g++ helloworld.cpp -o build/helloworld
 ./build/helloworld
 ```
 - How to call on a function found on another file? => https://stackoverflow.com/questions/15891781/how-to-call-on-a-function-found-on-another-file
+- How to install C++20 on Ubuntu => https://gasparri.org/2020/07/30/installing-c17-and-c20-on-ubuntu-and-amazon-linux/
+```bash
+sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+sudo apt-get update
+sudo apt install gcc-10 gcc-10-base gcc-10-doc g++-10
+sudo apt install libstdc++-10-dev libstdc++-10-doc
+```
 # Exercises
 - https://www.learncpp.com/
 - https://www.w3resource.com/cpp-exercises/
@@ -97,8 +104,8 @@ The POCO C++ Libraries are powerful cross-platform C++ libraries for building ne
 A Premium Embedded Web Server for electronic devices in a single file
 - https://mongoose.ws/
 - https://github.com/cesanta/mongoose
-# Good repo based on Drogon 
+# Good repo based on Drogon C++
 - Gaboot E-Commerce Backend Server: https://github.com/skript023/Gaboot
 - Libre Blog - A blog system powered by Drogon.
--- Libre Blog Backend: https://github.com/fansuregrin/libre-blog
--- Libre Blog Frontend: https://github.com/fansuregrin/libre-blog-frontend
+- -> Libre Blog Backend: https://github.com/fansuregrin/libre-blog
+- -> Libre Blog Frontend: https://github.com/fansuregrin/libre-blog-frontend
