@@ -19,7 +19,7 @@ void displayFileContent(const std::string & filename) {
     }
 }
 
-    int main() {
+int main() {
     std::vector<std::string> inputFiles = { // List of input files
         "test1.txt",
         "test2.txt",

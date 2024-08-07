@@ -8,6 +8,16 @@ g++ helloworld.cpp -o build/helloworld
 - https://www.learncpp.com/
 - https://www.w3resource.com/cpp-exercises/
 - https://github.com/codecrafters-io/build-your-own-x
+# jwt-cpp
+- https://github.com/Thalhammer/jwt-cpp
+```bash
+git clone https://github.com/Thalhammer/jwt-cpp.git
+cd jwt-cpp
+mkdir build
+cd build
+cmake .. && make
+sudo make install
+```
 # cpp-httplib
 Install (after install => /usr/local/include/httplib.h) 
 ```bash
@@ -86,3 +96,9 @@ The POCO C++ Libraries are powerful cross-platform C++ libraries for building ne
 # Mongoose
 A Premium Embedded Web Server for electronic devices in a single file
 - https://mongoose.ws/
+- https://github.com/cesanta/mongoose
+# Good repo based on Drogon 
+- Gaboot E-Commerce Backend Server: https://github.com/skript023/Gaboot
+- Libre Blog - A blog system powered by Drogon.
+-- Libre Blog Backend: https://github.com/fansuregrin/libre-blog
+-- Libre Blog Frontend: https://github.com/fansuregrin/libre-blog-frontend
