@@ -76,6 +76,10 @@ sudo make install
 Modern C++ REST Client library => https://github.com/jgaa/restc-cpp
 # ngrest
 Fast and easy C++ RESTful WebServices framework => https://github.com/loentar/ngrest
+# restinio
+Cross-platform, efficient, customizable, and robust asynchronous HTTP(S)/WebSocket server C++ library with the right balance between performance and ease of use
+- https://github.com/Stiffstream/restinio
+- https://stiffstream.com/en/docs/restinio/0.7/
 # JSON
 JSON for Modern C++
 - https://github.com/nlohmann/json
@@ -86,6 +90,9 @@ A fast JSON parser/generator for C++ with both SAX/DOM style API
 - Install => RapidJSON is a header-only C++ library. Just copy the include/rapidjson folder to system or project's include path.
 - https://github.com/Tencent/rapidjson
 - https://rapidjson.org/
+# HTTPRequest
+Single-header C++ HTTP request class
+- https://github.com/elnormous/HTTPRequest
 # HTML -> PDF
 - https://wkhtmltopdf.org/
 - https://github.com/wkhtmltopdf/wkhtmltopdf
@@ -109,3 +116,7 @@ A Premium Embedded Web Server for electronic devices in a single file
 - Libre Blog - A blog system powered by Drogon.
 - -> Libre Blog Backend: https://github.com/fansuregrin/libre-blog
 - -> Libre Blog Frontend: https://github.com/fansuregrin/libre-blog-frontend
+# Another good repos
+- Fast and simple blog system based on SQLite 3 and BBCode written in C++: https://github.com/vldr/
+- Simple Content Management System by Gradeyard: https://gradeyard.com/index.cgi?page=cmsExample
+- C++ Ecommerce CLI system: https://github.com/AtharIbrahim/ECommerce-Cpp
