@@ -61,6 +61,8 @@ cd build
 cmake ..
 make && sudo make install
 ```
+# Cinatra
+Cinatra is a high-performance, easy-to-use http framework developed in Modern C++ (C++20) with the goal of making it easy and quick to develop web applications using the C++ programming language: https://github.com/qicosmos/cinatra
 # oatpp
 🌱Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.
 ```bash
@@ -111,6 +113,15 @@ The POCO C++ Libraries are powerful cross-platform C++ libraries for building ne
 A Premium Embedded Web Server for electronic devices in a single file
 - https://mongoose.ws/
 - https://github.com/cesanta/mongoose
+# Emscripten
+Emscripten is a complete compiler toolchain to WebAssembly, using LLVM, with a special focus on speed, size, and the Web platform.
+- PORTING: Compile your existing projects written in C or C++ — or any language that uses LLVM — to browsers, Node.js, or wasm runtimes.
+- APIs: Emscripten converts OpenGL into WebGL, and has support for familiar APIs like SDL, pthreads, and POSIX, as well as Web APIs and JavaScript.
+- FAST: Thanks to the combination of LLVM, Emscripten, Binaryen, and WebAssembly, the output is compact and runs at near-native speed.
+URLs
+- https://github.com/emscripten-core/emscripten
+- https://emscripten.org/
+- https://www.codeproject.com/Articles/5250727/Introduction-to-Web-Assembly-with-C-Cplusplus
 # Good repo based on Drogon C++
 - Gaboot E-Commerce Backend Server: https://github.com/skript023/Gaboot
 - Libre Blog - A blog system powered by Drogon.
