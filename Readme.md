@@ -128,8 +128,18 @@ URLs
 - -> Libre Blog Backend: https://github.com/fansuregrin/libre-blog
 - -> Libre Blog Frontend: https://github.com/fansuregrin/libre-blog-frontend
 # Another good repos
-- Fast and simple blog system based on SQLite 3 and BBCode written in C++: https://github.com/vldr/
+- Fast and simple blog system based on SQLite 3 and BBCode written in C++: https://github.com/vldr/LightBlog
 - Simple Content Management System by Gradeyard: https://gradeyard.com/index.cgi?page=cmsExample
 - C++ Ecommerce CLI system: https://github.com/AtharIbrahim/ECommerce-Cpp
 # C++ Web Programming
 - https://www.tutorialspoint.com/cplusplus/cpp_web_programming.htm
+# Redis
+- https://github.com/sewenew/redis-plus-plus
+- https://github.com/tdv/redis-cpp
+# ElasticSearch
+- https://github.com/seznam/elasticlient
+# Kafka
+- https://github.com/morganstanley/modern-cpp-kafka
+- https://github.com/confluentinc/librdkafka
+# RabbitMQ
+- https://github.com/CopernicaMarketingSoftware/AMQP-CPP
