@@ -143,3 +143,23 @@ URLs
 - https://github.com/confluentinc/librdkafka
 # RabbitMQ
 - https://github.com/CopernicaMarketingSoftware/AMQP-CPP
+# C++ Template Engine for HTML/CSS/JavaScript
+- https://github.com/melpon/ginger
+- https://github.com/pantor/inja
+- https://github.com/jinja2cpp/Jinja2Cpp
+- https://github.com/qicosmos/render
+I use C++ to develop web services. The stack I use (extracted from my conanfile):
+fmt/9.0.0
+spdlog/1.10.0
+cpp-httplib/0.11.2
+chaiscript/6.1.0
+openssl/3.0.5
+cli11/2.2.0
+nlohmann_json/3.11.1
+# C++ Static Site Generators
+- Nift: https://github.com/nifty-site-manager/nsm
+- blogcpp: https://code.rosaelefanten.org/blogcpp/dir?type=flat&ci=trunk
+- Mizi: https://github.com/AbstractXan/Mizi
+- sudo_site: https://github.com/sharadcodes/sudo_site
+- Bake: https://github.com/felipetavares/bake
+- The Great Site Generator: https://github.com/drew5494/the-great-site-generator
