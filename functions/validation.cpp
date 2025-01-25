@@ -46,3 +46,23 @@ bool isValidJSON(const std::string& jsonStr) {
         return false;
     }
 }
+
+// Function to validate minimum length of a string
+bool isValidMinLength(const std::string& str, size_t minLength) {
+    return str.length() >= minLength;
+}
+
+// Function to validate maximum length of a string
+bool isValidMaxLength(const std::string& str, size_t maxLength) {
+    return str.length() <= maxLength;
+}
+
+// Function to validate if a string contains only alphabetic characters
+bool isValidAlphabet(const std::string& str) {
+    for (char ch : str) {
+        if (!std::isalpha(ch)) {
+            return false; // Return false if any character is not alphabetic
+        }
+    }
+    return true; // Return true if all characters are alphabetic
+}
