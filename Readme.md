@@ -1,4 +1,4 @@
-# How to compile C++
+## How to compile C++
 ```bash
 g++ helloworld.cpp -o build/helloworld
 ./build/helloworld
@@ -11,11 +11,11 @@ sudo apt-get update
 sudo apt install gcc-10 gcc-10-base gcc-10-doc g++-10
 sudo apt install libstdc++-10-dev libstdc++-10-doc
 ```
-# Exercises
+## Exercises
 - https://www.learncpp.com/
 - https://www.w3resource.com/cpp-exercises/
 - https://github.com/codecrafters-io/build-your-own-x
-# jwt-cpp
+## jwt-cpp
 - https://github.com/Thalhammer/jwt-cpp
 ```bash
 git clone https://github.com/Thalhammer/jwt-cpp.git
@@ -25,7 +25,7 @@ cd build
 cmake .. && make
 sudo make install
 ```
-# cpp-httplib
+## cpp-httplib
 Install (after install => /usr/local/include/httplib.h) 
 ```bash
 git clone git@github.com:yhirose/cpp-httplib.git
@@ -41,7 +41,7 @@ g++ server.cpp -o build/server -lpthread
 ```
 * undefined reference to `pthread_create'
 https://stackoverflow.com/questions/17264984/undefined-reference-to-pthread-
-# Drogon
+## Drogon
 Drogon: A C++14/17/20 based HTTP web application framework running on Linux/macOS/Unix/Windows
 ```bash
 sudo apt install git
@@ -61,9 +61,9 @@ cd build
 cmake ..
 make && sudo make install
 ```
-# Cinatra
+## Cinatra
 Cinatra is a high-performance, easy-to-use http framework developed in Modern C++ (C++20) with the goal of making it easy and quick to develop web applications using the C++ programming language: https://github.com/qicosmos/cinatra
-# oatpp
+## oatpp
 🌱Light and powerful C++ web framework for highly scalable and resource-efficient web application. It's zero-dependency and easy-portable.
 ```bash
 git clone git@github.com:oatpp/oatpp.git
@@ -74,46 +74,46 @@ sudo make install
 ```
 - A complete example of a "CRUD" service (UserService) built with Oat++. => https://github.com/oatpp/example-crud
 - OpenApi 3.0.0 docs + Swagger UI for oatpp services => https://github.com/oatpp/oatpp-swagger
-# restc-cpp
+## restc-cpp
 Modern C++ REST Client library => https://github.com/jgaa/restc-cpp
-# ngrest
+## ngrest
 Fast and easy C++ RESTful WebServices framework => https://github.com/loentar/ngrest
-# restinio
+## restinio
 Cross-platform, efficient, customizable, and robust asynchronous HTTP(S)/WebSocket server C++ library with the right balance between performance and ease of use
 - https://github.com/Stiffstream/restinio
 - https://stiffstream.com/en/docs/restinio/0.7/
-# JSON
+## JSON
 JSON for Modern C++
 - https://github.com/nlohmann/json
 - Copy "single_include/nlohmann" folder to "/user/local/include"
 - C/C++ JSON parser/generator benchmark => https://github.com/miloyip/nativejson-benchmark#parsing-time
-# rapidjson
+## rapidjson
 A fast JSON parser/generator for C++ with both SAX/DOM style API
 - Install => RapidJSON is a header-only C++ library. Just copy the include/rapidjson folder to system or project's include path.
 - https://github.com/Tencent/rapidjson
 - https://rapidjson.org/
-# HTTPRequest
+## HTTPRequest
 Single-header C++ HTTP request class
 - https://github.com/elnormous/HTTPRequest
-# HTML -> PDF
+## HTML -> PDF
 - https://wkhtmltopdf.org/
 - https://github.com/wkhtmltopdf/wkhtmltopdf
-# Nginx link function
+## Nginx link function
 It is a NGINX module that provides dynamic linking to your application in server context and call the function of your application in location directive
 - https://github.com/Taymindis/nginx-link-function
 - https://nginx-link-function.github.io/
-# C++ chat app
+## C++ chat app
 A chat room application developed in C++ using the concepts of multi-threading and socket programming.
 - https://github.com/cjchirag7/chatroom-cpp
-# POCO
+## POCO
 The POCO C++ Libraries are powerful cross-platform C++ libraries for building network- and internet-based applications that run on desktop, server, mobile, IoT, and embedded systems.
 - https://github.com/pocoproject/poco
 - https://pocoproject.org/
-# Mongoose
+## Mongoose
 A Premium Embedded Web Server for electronic devices in a single file
 - https://mongoose.ws/
 - https://github.com/cesanta/mongoose
-# Emscripten
+## Emscripten
 Emscripten is a complete compiler toolchain to WebAssembly, using LLVM, with a special focus on speed, size, and the Web platform.
 - PORTING: Compile your existing projects written in C or C++ — or any language that uses LLVM — to browsers, Node.js, or wasm runtimes.
 - APIs: Emscripten converts OpenGL into WebGL, and has support for familiar APIs like SDL, pthreads, and POSIX, as well as Web APIs and JavaScript.
@@ -122,28 +122,28 @@ URLs
 - https://github.com/emscripten-core/emscripten
 - https://emscripten.org/
 - https://www.codeproject.com/Articles/5250727/Introduction-to-Web-Assembly-with-C-Cplusplus
-# Good repo based on Drogon C++
+## Good repo based on Drogon C++
 - Gaboot E-Commerce Backend Server: https://github.com/skript023/Gaboot
 - Libre Blog - A blog system powered by Drogon.
 - -> Libre Blog Backend: https://github.com/fansuregrin/libre-blog
 - -> Libre Blog Frontend: https://github.com/fansuregrin/libre-blog-frontend
-# Another good repos
+## Another good repos
 - Fast and simple blog system based on SQLite 3 and BBCode written in C++: https://github.com/vldr/LightBlog
 - Simple Content Management System by Gradeyard: https://gradeyard.com/index.cgi?page=cmsExample
 - C++ Ecommerce CLI system: https://github.com/AtharIbrahim/ECommerce-Cpp
-# C++ Web Programming
+## C++ Web Programming
 - https://www.tutorialspoint.com/cplusplus/cpp_web_programming.htm
-# Redis
+## Redis
 - https://github.com/sewenew/redis-plus-plus
 - https://github.com/tdv/redis-cpp
-# ElasticSearch
+## ElasticSearch
 - https://github.com/seznam/elasticlient
-# Kafka
+## Kafka
 - https://github.com/morganstanley/modern-cpp-kafka
 - https://github.com/confluentinc/librdkafka
-# RabbitMQ
+## RabbitMQ
 - https://github.com/CopernicaMarketingSoftware/AMQP-CPP
-# C++ Template Engine for HTML/CSS/JavaScript
+## C++ Template Engine for HTML/CSS/JavaScript
 - https://github.com/melpon/ginger
 - https://github.com/pantor/inja
 - https://github.com/jinja2cpp/Jinja2Cpp
@@ -156,24 +156,24 @@ chaiscript/6.1.0
 openssl/3.0.5
 cli11/2.2.0
 nlohmann_json/3.11.1
-# C++ Static Site Generators
+## C++ Static Site Generators
 - Nift: https://github.com/nifty-site-manager/nsm
 - blogcpp: https://code.rosaelefanten.org/blogcpp/dir?type=flat&ci=trunk
 - Mizi: https://github.com/AbstractXan/Mizi
 - sudo_site: https://github.com/sharadcodes/sudo_site
 - Bake: https://github.com/felipetavares/bake
 - The Great Site Generator: https://github.com/drew5494/the-great-site-generator
-# TinyORM
+## TinyORM
 Modern C++ ORM library
 - https://github.com/silverqx/TinyORM
-# pugixml
+## pugixml
 pugixml is a light-weight XML processing library that can also be effectively used for HTML parsing in web scraping projects.
 - https://github.com/zeux/pugixml
-# Headless Browser
+## Headless Browser
 Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.
 - https://github.com/chromiumembedded/cef
-# Scrape
+## Scrape
 - Scrape a Dynamic Website with C++
 https://scrapingant.com/blog/scrape-dynamic-website-with-c-plus-plus
-# Develop MySQL C++ Applications with Advanced Integration
+## Develop MySQL C++ Applications with Advanced Integration
 https://app.studyraid.com/en/courses/12428/develop-mysql-c-applications-with-advanced-integration
