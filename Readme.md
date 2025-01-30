@@ -163,3 +163,17 @@ nlohmann_json/3.11.1
 - sudo_site: https://github.com/sharadcodes/sudo_site
 - Bake: https://github.com/felipetavares/bake
 - The Great Site Generator: https://github.com/drew5494/the-great-site-generator
+# TinyORM
+Modern C++ ORM library
+- https://github.com/silverqx/TinyORM
+# pugixml
+pugixml is a light-weight XML processing library that can also be effectively used for HTML parsing in web scraping projects.
+- https://github.com/zeux/pugixml
+# Headless Browser
+Chromium Embedded Framework (CEF). A simple framework for embedding Chromium-based browsers in other applications.
+- https://github.com/chromiumembedded/cef
+# Scrape
+- Scrape a Dynamic Website with C++
+https://scrapingant.com/blog/scrape-dynamic-website-with-c-plus-plus
+# Develop MySQL C++ Applications with Advanced Integration
+https://app.studyraid.com/en/courses/12428/develop-mysql-c-applications-with-advanced-integration
